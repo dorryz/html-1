@@ -2,6 +2,7 @@ body {
     background-image: url(https://avatanplus.com/files/resources/original/58eb8d5d3fcb815b5820344d.jpg)
 }
 @import url('https://fonts.googleapis.com/css?family=Anonymous+Pro|Press+Start+2P|Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap');
 a {
     color: #ff009d;
     font-family: 'Anonymous Pro', monospace;
@@ -98,9 +99,21 @@ form {
 .pes {
     border-style: ridge;
     border-width: 3px;
-    border-color: #05d027;
+    border-color: #1caebd #d005a2;
+    transition: all 0.8s ease;
+    transition-delay: 0.2s;
+}
+.pes:hover {
+    transform: rotate(-360deg);
 }
 button {
     border-style: ridge;
-    border-color: #05d027;
+    border-color: #d005a2;
+}
+span {
+    font-family: 'Ubuntu Mono', monospace;
+    font-style: italic;
+    font-size: large;
+    letter-spacing: 3px;
+    color: #05d027;
 }
